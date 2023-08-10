@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:14:06.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BgW2wkpmEhzYbTZBgb3J" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T08:46:36.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="04P9HgkQakJEsEl_tLQr" version="21.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2282" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2615" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="교환 반품/반품 신청" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1152.5" y="90" width="120" height="40" as="geometry" />
+          <mxGeometry x="1113.02" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7">
           <mxGeometry relative="1" as="geometry" />
@@ -17,32 +17,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="배송 시작 후&lt;br&gt;30일이 지났는가 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1150" y="180" width="125" height="110" as="geometry" />
+          <mxGeometry x="1110.52" y="230" width="125" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="교환, 환불 가능한 기간이 지났습니다.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;교환 환불은 배송 완료 후 30일 이내에 가능합니다." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1363.5" y="205" width="280" height="60" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="교환, 환불 가능한 기간이 지났습니다.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;교환 환불은 배송 완료 후 30일 이내에 가능합니다." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1324.02" y="255" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tqf3V1w9By7qvggdj3lG-1" value="&lt;h1&gt;1. step 보스몰 (교환/반품 프로세스)&lt;/h1&gt;&lt;p&gt;&lt;b&gt;교환/반품 가능한 조건&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;배송 준비 중, 배송 완료 상태일 때&lt;/li&gt;&lt;li&gt;배송 시작(완료)일 후 33일 이내만 가능&lt;/li&gt;&lt;ul&gt;&lt;li&gt;위탁 배송인 경우 송장번호를 확인 할 수 없는 경우들이 존재&lt;/li&gt;&lt;li&gt;위탁 배송이 아닌 경우에도 송장번호가 누락되는 경우들이 존재&lt;/li&gt;&lt;li&gt;이러한 경우들로 인해서 법적 기준 30일에서 3일이 추가된 33일로 한다.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;사유 선택 조건&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;단순 변심은 10일 이내, 나머지 판매자 잘못일 경우 30일 이내&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;10일이 지나면 단순 변심은 선택 할 수 없다.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;30일이 지나면 &quot;보스몰 - 마이페이지 - 주문 목록 - 교환/반품 신청 버튼&quot;을 할 수 없다.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;사유에 따른 사진 조건&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;전체 박스 사진&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;송장 사진&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;내부 상품 사진&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&quot;단순 변심&quot;인 경우&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;3. 내부 상품 사진 옆에 &quot;제품 미사용 상태 확인 목적&quot; 문구 필요&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;주문 상품과 다름&quot; || &quot;입상수가 다름&quot;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;사유에 따른 사진 조건 동일&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;상품 불량&quot;인 경우&lt;/li&gt;&lt;ul&gt;&lt;li&gt;4번 추가 &quot;불량 부분의 사진&quot;&lt;br&gt;&lt;/li&gt;&lt;li&gt;불량에 대한 사유가 필요 text input 추가&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;기타&quot;인 경우&lt;/li&gt;&lt;ul&gt;&lt;li&gt;사유가 필요하므로 text input 추가&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;상품 불량&quot;인 경우 사진 4장 이상 &lt;br&gt;나머지 사유에 대해서는 사진 3장 이상&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;사유에 따른 해결방법 선택 조건&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;단순 변심인 경우&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;해결방법 선택&quot;에서 &quot;교환&quot;을 선택 할 수 없으며, &quot;환불/반품&quot;만 가능하다.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;나머지는 교환 선택 가능&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;해결방법 선택&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;환불 정보 입력 시 어떻게 환불 받을 것 인가 선택할 수 있음&lt;/li&gt;&lt;li&gt;계좌 환불 / 포인트 환불 선택 가능&lt;/li&gt;&lt;ul&gt;&lt;li&gt;계좌 환불 일 시 &quot;예금주&quot;, &quot;은행명&quot;, &quot;계좌번호&quot; 입력이 필수여야만 한다.&lt;/li&gt;&lt;li&gt;포인트 환불 일 시 선택만 하고 바로 신청 가능&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;단, 해당 문의가 왔을 때&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;고객 - &quot;저는 배송 완료가 된 지 아직 26일 밖에 안되었고 지금 박스를 개봉해보니까 파손이 되어 있습니다. 법적으로 배송 완료 후 30일 이내 아닌가요 ?&quot;&lt;/li&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;송장번호를 확인하고 배송 완료일을 확인 한 후 교환해준다.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="10" width="860" height="1380" as="geometry" />
+        <mxCell id="tqf3V1w9By7qvggdj3lG-1" value="&lt;h1&gt;1. step 보스몰 - 교환/반품 프로세스&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;교환/반품 가능한 조건&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;배송 준비 중, 배송 완료 상태일 때&lt;/li&gt;&lt;li&gt;배송 시작(완료)일 후 33일 이내만 가능&lt;/li&gt;&lt;ul&gt;&lt;li&gt;위탁 배송인 경우 송장번호를 확인 할 수 없는 경우들이 존재&lt;/li&gt;&lt;li&gt;위탁 배송이 아닌 경우에도 송장번호가 누락되는 경우들이 존재&lt;/li&gt;&lt;li&gt;이러한 경우들로 인해서 법적 기준 30일에서 3일이 추가된 33일로 한다.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;사유 선택 조건&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;단순 변심은 10일 이내, 나머지 판매자 잘못일 경우 30일 이내&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;10일이 지나면 단순 변심은 선택 할 수 없다.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;30일이 지나면 &quot;보스몰 - 마이페이지 - 주문 목록 - 교환/반품 신청 버튼&quot;을 할 수 없다.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;사유에 따른 사진 조건&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;전체 박스 사진&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;송장 사진&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;내부 상품 사진&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&quot;단순 변심&quot;인 경우&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;3. 내부 상품 사진 옆에 &quot;제품 미사용 상태 확인 목적&quot; 문구 필요&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;주문 상품과 다름&quot; || &quot;입상수가 다름&quot;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;사유에 따른 사진 조건 동일&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;상품 불량&quot;인 경우&lt;/li&gt;&lt;ul&gt;&lt;li&gt;4번 추가 &quot;불량 부분의 사진&quot;&lt;br&gt;&lt;/li&gt;&lt;li&gt;불량에 대한 사유가 필요 text input 추가&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;기타&quot;인 경우&lt;/li&gt;&lt;ul&gt;&lt;li&gt;사유가 필요하므로 text input 추가&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&quot;상품 불량&quot;인 경우 사진 4장 이상 &lt;br&gt;나머지 사유에 대해서는 사진 3장 이상&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;사유에 따른 해결방법 선택 조건&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;단순 변심인 경우&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;해결방법 선택&quot;에서 &quot;교환&quot;을 선택 할 수 없으며, &quot;환불/반품&quot;만 가능하다.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;나머지는 교환 선택 가능&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;해결방법 선택&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;환불 정보 입력 시 어떻게 환불 받을 것 인가 선택할 수 있음&lt;/li&gt;&lt;li&gt;계좌 환불 / 포인트 환불 선택 가능&lt;/li&gt;&lt;ul&gt;&lt;li&gt;계좌 환불 일 시 &quot;예금주&quot;, &quot;은행명&quot;, &quot;계좌번호&quot; 입력이 필수여야만 한다.&lt;/li&gt;&lt;li&gt;포인트 환불 일 시 선택만 하고 바로 신청 가능&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;단, 해당 문의가 왔을 때&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;고객 - &quot;저는 배송 완료가 된 지 아직 26일 밖에 안되었고 지금 박스를 개봉해보니까 파손이 되어 있습니다. 법적으로 배송 완료 후 30일 이내 아닌가요 ?&quot;&lt;/li&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;송장번호를 확인하고 배송 완료일을 확인 한 후 교환해준다.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="250" width="860" height="870" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-2" value="&lt;h1&gt;질문 내용&lt;/h1&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;위탁일 때&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-770" y="70" width="630" height="430" as="geometry" />
+          <mxGeometry x="-770" y="70" width="410" height="670" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-6" target="tqf3V1w9By7qvggdj3lG-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-6" value="교환/반품 신청&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Modal open" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1113.02" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-7" target="tqf3V1w9By7qvggdj3lG-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-7" value="1. Step &lt;br&gt;상품 선택" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="1113.02" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-9" target="tqf3V1w9By7qvggdj3lG-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1342.5" y="630" as="targetPoint" />
+            <mxPoint x="1303.02" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="tqf3V1w9By7qvggdj3lG-13">
@@ -59,17 +59,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-9" value="상품 신청 수량이&lt;br&gt;1개 이상인가 ?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="570" width="120" height="120" as="geometry" />
+          <mxGeometry x="1113.02" y="620" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-16" value="error noti&lt;br&gt;교환/환불 수량이 1개 이상이어야 합니다." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="1393.02" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1492" y="580" as="sourcePoint" />
-            <mxPoint x="1212.5" y="550" as="targetPoint" />
+            <mxPoint x="1452.52" y="630" as="sourcePoint" />
+            <mxPoint x="1173.02" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1492.5" y="550" />
+              <mxPoint x="1453.02" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -77,18 +77,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-19" value="2. Step&lt;br&gt;사유 선택" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="1113.02" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=13;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1312.5" y="220" as="geometry" />
+          <mxGeometry x="1273.02" y="270" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-26" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1364.5" y="630" as="geometry">
+          <mxGeometry x="1325.02" y="680" as="geometry">
             <mxPoint x="-138" y="-320" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-27" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Again&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="520" width="60" height="30" as="geometry" />
+          <mxGeometry x="1393.02" y="570" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-29" target="tqf3V1w9By7qvggdj3lG-34">
           <mxGeometry relative="1" as="geometry" />
@@ -97,24 +97,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-29" value="단순 변심&lt;br&gt;선택 시 10일&lt;br&gt;지났는가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1157.5" y="860" width="110" height="110" as="geometry" />
+          <mxGeometry x="1118.02" y="910" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-34" value="선택할 수 없게 처리&lt;br&gt;disabled 후&lt;br&gt;&quot;주문 상품과 다름&quot;&amp;nbsp;&lt;br&gt;default 처리" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="877.5" width="150" height="75" as="geometry" />
+          <mxGeometry x="1393.02" y="927.5" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-37" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=13;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1342.5" y="900" as="geometry" />
+          <mxGeometry x="1303.02" y="950" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-43" target="tqf3V1w9By7qvggdj3lG-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-43" value="클릭 시 조건에 맞게&lt;br&gt;보여진다." style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="1113.02" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-43" target="tqf3V1w9By7qvggdj3lG-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="820" as="sourcePoint" />
-            <mxPoint x="-2" y="440" as="targetPoint" />
+            <mxPoint x="560" y="1060" as="sourcePoint" />
+            <mxPoint x="-2" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&quot;사유에 따른 사진 조건&quot; 참조&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tqf3V1w9By7qvggdj3lG-45">
@@ -129,50 +129,50 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-48" value="사진 수량 &lt;br&gt;조건이&lt;br&gt;맞는가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1157.5" y="1160" width="110" height="110" as="geometry" />
+          <mxGeometry x="1118.02" y="1210" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-51" value="error noti&lt;br&gt;사진 수량에 맞게 &lt;br&gt;업로드 해달라고 표시" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="1177.5" width="150" height="75" as="geometry" />
+          <mxGeometry x="1393.02" y="1227.5" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="tqf3V1w9By7qvggdj3lG-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1212.5" y="997.5" as="sourcePoint" />
-            <mxPoint x="1507.5" y="960" as="targetPoint" />
+            <mxPoint x="1173.02" y="1047.5" as="sourcePoint" />
+            <mxPoint x="1468.02" y="1010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1507.5" y="997.5" />
+              <mxPoint x="1468.02" y="1047.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-54" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Pass&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1457.5" y="990" width="50" height="30" as="geometry" />
+          <mxGeometry x="1418.02" y="1040" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-55" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1364.5" y="610" as="geometry">
+          <mxGeometry x="1325.02" y="660" as="geometry">
             <mxPoint x="-139" y="372" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-56" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1610" y="450" as="geometry">
+          <mxGeometry x="1570.52" y="500" as="geometry">
             <mxPoint x="-269" y="750" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1522.5" y="1170" as="sourcePoint" />
-            <mxPoint x="1212.5" y="1120" as="targetPoint" />
+            <mxPoint x="1483.02" y="1220" as="sourcePoint" />
+            <mxPoint x="1173.02" y="1170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1507.5" y="1120" />
+              <mxPoint x="1468.02" y="1170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-58" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Again&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1447.5" y="1090" width="60" height="30" as="geometry" />
+          <mxGeometry x="1408.02" y="1140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-59" target="tqf3V1w9By7qvggdj3lG-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-59" value="3. Step&lt;br&gt;해결방법 선택" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1113.02" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-61" target="tqf3V1w9By7qvggdj3lG-63">
           <mxGeometry relative="1" as="geometry" />
@@ -181,13 +181,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-61" value="사유가 &lt;br&gt;단순 변심인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1157.5" y="1470" width="110" height="110" as="geometry" />
+          <mxGeometry x="1118.02" y="1520" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-63" value="&quot;교환&quot; 방법을 선택할 수 없게 처리 disabled 후&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&quot;환불/반품&quot;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;default 처리" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="1483.13" width="167.5" height="83.75" as="geometry" />
+          <mxGeometry x="1393.02" y="1533.13" width="167.5" height="83.75" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-66" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Pass&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1465.5" y="1620" width="50" height="30" as="geometry" />
+          <mxGeometry x="1426.02" y="1670" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-67" target="tqf3V1w9By7qvggdj3lG-80">
           <mxGeometry relative="1" as="geometry" />
@@ -196,49 +196,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-67" value="해결 방법이&lt;br&gt;환불/반품 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1157.5" y="1660" width="110" height="110" as="geometry" />
+          <mxGeometry x="1118.02" y="1710" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-69" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1212" y="1610" as="sourcePoint" />
-            <mxPoint x="1518.1268309900584" y="1566.8799999999999" as="targetPoint" />
+            <mxPoint x="1172.52" y="1660" as="sourcePoint" />
+            <mxPoint x="1478.6468309900583" y="1616.8799999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1518" y="1610" />
+              <mxPoint x="1478.52" y="1660" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-72" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1310" y="1490" width="50" height="30" as="geometry" />
+          <mxGeometry x="1270.52" y="1540" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-73" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1215" y="1580" width="40" height="30" as="geometry" />
+          <mxGeometry x="1175.52" y="1630" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-80" value="해결 방법이 교환일 경우 바로 교환/반품 신청 가능 후&lt;br&gt;프로세스 종료" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="1677.5" width="150" height="75" as="geometry" />
+          <mxGeometry x="1393.02" y="1727.5" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-82" target="tqf3V1w9By7qvggdj3lG-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1212.46" y="1960" as="sourcePoint" />
-            <mxPoint x="1212.46" y="2040" as="targetPoint" />
+            <mxPoint x="1172.98" y="2010" as="sourcePoint" />
+            <mxPoint x="1172.98" y="2090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-82" value="환불 방법이&lt;br&gt;계좌 환불인가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1157.5" y="1850" width="110" height="110" as="geometry" />
+          <mxGeometry x="1118.02" y="1900" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-84" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1320" y="1680" width="40" height="30" as="geometry" />
+          <mxGeometry x="1280.52" y="1730" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-85" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1215" y="1770" width="50" height="30" as="geometry" />
+          <mxGeometry x="1175.52" y="1820" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-86" value="환불 방법이 &quot;포인트 환불&quot;일 경우 바로 교환/반품 신청 가능 후&lt;br&gt;프로세스 종료" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="1867.5" width="150" height="75" as="geometry" />
+          <mxGeometry x="1393.02" y="1917.5" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-87" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1320" y="1870" width="40" height="30" as="geometry" />
+          <mxGeometry x="1280.52" y="1920" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-90" target="tqf3V1w9By7qvggdj3lG-93">
           <mxGeometry relative="1" as="geometry" />
@@ -247,31 +247,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-90" value="예금주, 은행, &lt;br&gt;계좌번호가 제대로 &lt;br&gt;작성 되었는가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1152.5" y="2040" width="120" height="120" as="geometry" />
+          <mxGeometry x="1113.02" y="2090" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-92" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1215" y="1960" width="50" height="30" as="geometry" />
+          <mxGeometry x="1175.52" y="2010" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1212" y="2000" as="targetPoint" />
-            <mxPoint x="1494.5" y="2070" as="sourcePoint" />
+            <mxPoint x="1172.52" y="2050" as="targetPoint" />
+            <mxPoint x="1455.02" y="2120" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1495" y="2000" />
+              <mxPoint x="1455.52" y="2050" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-93" value="error noti&lt;br&gt;예금주, 은행, 계좌번호는 필수입니다." style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432.5" y="2070" width="120" height="60" as="geometry" />
+          <mxGeometry x="1393.02" y="2120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-96" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Again&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1434.5" y="1970" width="60" height="30" as="geometry" />
+          <mxGeometry x="1395.02" y="2020" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-97" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1320" y="2070" width="40" height="30" as="geometry" />
+          <mxGeometry x="1280.52" y="2120" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-98" value="&quot;교환/반품 신청&quot; 후&lt;br&gt;프로세스 종료" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1137.5" y="2230" width="150" height="75" as="geometry" />
+          <mxGeometry x="1098.02" y="2280" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-100" value="&lt;h1&gt;전체적인 흐름&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 14px;&quot;&gt;&lt;li&gt;교환/반품 요청&lt;/li&gt;&lt;li&gt;관리자 승인&lt;/li&gt;&lt;li&gt;물류 회수&lt;/li&gt;&lt;li&gt;환불 및 재배송&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="30" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-101" value="&lt;h1&gt;2. step 대시보드 - 관리자 승인&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;교환/반품 문의 확인&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 메뉴 탭 - 고객 문의 관리 -&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1810" y="250" width="690" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
