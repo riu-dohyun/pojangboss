@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T02:19:08.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dh1FFiU1Dvwp9mRo99dE" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T08:58:56.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="B3qRR9RfBqoYpAQiag4C" version="21.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4205" dy="4238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2646" dy="3653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -144,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-54" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Pass&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1418.02" y="1040" width="50" height="30" as="geometry" />
+          <mxGeometry x="1418.02" y="1050" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-55" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1325.02" y="660" as="geometry">
@@ -293,10 +293,10 @@
           <mxGeometry x="1098.02" y="2280" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-100" value="&lt;h1&gt;전체적인 흐름&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 14px;&quot;&gt;&lt;li&gt;교환/반품 요청&lt;/li&gt;&lt;li&gt;관리자 승인&lt;/li&gt;&lt;li&gt;물류 회수&lt;/li&gt;&lt;li&gt;환불 및 재배송&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="930" y="-980" width="270" height="130" as="geometry" />
+          <mxGeometry x="-450" y="-1340" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="tqf3V1w9By7qvggdj3lG-101" value="&lt;h1&gt;2. step 대시보드 - 관리자 승인&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;교환/반품 문의 확인&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 메뉴 탭 - 고객 문의 관리 - 교환/반품/취소 문의 에서 확인 가능&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;알림톡 예시&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 주문번호 : #7599&lt;br&gt;&amp;nbsp; &amp;nbsp;문의 구분 : 환불/반품&lt;br&gt;&amp;nbsp; &amp;nbsp;문의일 : 2023-08-08 15:23:58&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;담당자는 교환/반품 문의가 들어왔다고 알림톡을 받는다.&lt;/li&gt;&lt;li&gt;대시보드에서 상단에 메뉴 정보에 맞춰서 접속한다.&lt;/li&gt;&lt;li&gt;알림톡 정보에 맞는 행(Row)을 찾아서 주문번호를 클릭 한다.&lt;/li&gt;&lt;li&gt;우측 &quot;회원정보&quot; 하단에 &quot;교환/반품/취소 문의&quot; 정보가 있다.&lt;/li&gt;&lt;ol&gt;&lt;li&gt;현재는 이 부분에 있지만 지속적인 추가 요구사항에 따라서 &lt;br&gt;UI/UX는 개발자에 의해 달라질 수 있다. 변경 후 공유 예정&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;현재 진행중인 문의가 있는 경우에만 문의 내용이 나오며, &lt;br&gt;그렇지 않은 경우는 &quot;진행 중인 문의가 없습니다.&quot;라는 문구가 나옵니다.&lt;/li&gt;&lt;li&gt;진행중인 문의가 있는 경우&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;문의 구분&lt;/li&gt;&lt;li&gt;문의 구분에 따른 신청 상품&lt;/li&gt;&lt;li&gt;신청 사유&lt;/li&gt;&lt;li&gt;첨부 사진&lt;/li&gt;&lt;li&gt;환불 계좌 정보 (환불 계좌 정보가 있다면)&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;위의 정보들을 확인하고 거부 or 승인이 가능합니다.&lt;/li&gt;&lt;ol&gt;&lt;li&gt;승인 시 process&lt;/li&gt;&lt;ol&gt;&lt;li&gt;status 가 &quot;물류 회수 승인&quot;(APPROVED) 상태 변경&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;거절 시 process&lt;/li&gt;&lt;ol&gt;&lt;li&gt;거절 사유 작성 필수&lt;/li&gt;&lt;li&gt;status 가 &quot;교환 or 반품 거절&quot;(REJECTED) 상태로 변경&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1810" y="250" width="690" height="1740" as="geometry" />
+        <mxCell id="tqf3V1w9By7qvggdj3lG-101" value="&lt;h1&gt;2. step 대시보드 - 관리자 승인&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;교환/반품 문의 확인&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 메뉴 탭 - 고객 문의 관리 - 교환/반품/취소 문의 에서 확인 가능&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;알림톡 예시&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; 주문번호 : #7599&lt;br&gt;&amp;nbsp; &amp;nbsp;문의 구분 : 환불/반품&lt;br&gt;&amp;nbsp; &amp;nbsp;문의일 : 2023-08-08 15:23:58&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;담당자는 교환/반품 문의가 들어왔다고 알림톡을 받는다.&lt;/li&gt;&lt;li&gt;대시보드에서 상단에 메뉴 정보에 맞춰서 접속한다.&lt;/li&gt;&lt;li&gt;알림톡 정보에 맞는 행(Row)을 찾아서 주문번호를 클릭 한다.&lt;/li&gt;&lt;li&gt;우측 &quot;회원정보&quot; 하단에 &quot;교환/반품/취소 문의&quot; 정보가 있다.&lt;/li&gt;&lt;ol&gt;&lt;li&gt;현재는 이 부분에 있지만 지속적인 추가 요구사항에 따라서 &lt;br&gt;UI/UX는 개발자에 의해 달라질 수 있다. 변경 후 공유 예정&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;현재 진행중인 문의가 있는 경우에만 문의 내용이 나오며, &lt;br&gt;그렇지 않은 경우는 &quot;진행 중인 문의가 없습니다.&quot;라는 문구가 나옵니다.&lt;/li&gt;&lt;li&gt;진행중인 문의가 있는 경우&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;문의 구분&lt;/li&gt;&lt;li&gt;문의 구분에 따른 신청 상품&lt;/li&gt;&lt;li&gt;신청 사유&lt;/li&gt;&lt;li&gt;첨부 사진&lt;/li&gt;&lt;li&gt;환불 계좌 정보 (환불 계좌 정보가 있다면)&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;위의 정보들을 확인하고 거부 or 승인이 가능합니다.&lt;/li&gt;&lt;ol&gt;&lt;li&gt;승인 시 process&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&quot;물류 회수 승인&quot;할 경우 &quot;RECALL_APPROVED&quot; 상태 변경&lt;br&gt;&lt;/li&gt;&lt;li&gt;&quot;물류 회수 거부&quot;할 경우 &quot;CHECKING_PRODUCT&quot; 상태 변경&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;거절 시 process&lt;/li&gt;&lt;ol&gt;&lt;li&gt;거절 사유 작성 필수&lt;/li&gt;&lt;li&gt;status 가 &quot;교환 or 반품 거절&quot;(REJECTED) 상태로 변경&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;li&gt;&quot;반품&quot;&amp;nbsp;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&quot;물류 회수 승인&quot;일 경우 물류 회수를 한 후 확인 한 다음에 최종 승인 절차가 필요&lt;/li&gt;&lt;li&gt;&quot;물류 회수 거부&quot;일 경우 환불 후 &quot;환불 확인&quot; 상태로 변경됩니다.&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;&quot;교환&quot;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;회수 &quot;물품 확인 완료&quot;가 되었을 때 물품 재 발송을 하며 &quot;물품 재발송 확인&quot;상태로 변경이 필요합니다.&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&quot;REFUND_CHECK - 환불 확인&quot; &amp;amp;&amp;amp; &quot;RESEND_PRODUCT - 물품 재발송 확인&quot; 일 경우에만 &lt;br&gt;&quot;최종 승인&quot; 버튼이 뜨며 &quot;최종 승인&quot;버튼을 클릭 할 시 &lt;br&gt;&quot;FINAL_APPROVED - 최종 승인&quot; 상태로 변경되며 문의 프로세스가 종료 됩니다.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1930" y="170" width="680" height="1740" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-102" value="최종 프로세스 종료 후&lt;br&gt;관리자에게 알림톡 발송" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1383.02" y="2470" width="120" height="60" as="geometry" />
@@ -305,55 +305,252 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-113" value="교환/반품 요청" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1324.02" y="-940" width="120" height="60" as="geometry" />
+          <mxGeometry x="-55.98000000000002" y="-1300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tqf3V1w9By7qvggdj3lG-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-114" target="tqf3V1w9By7qvggdj3lG-117">
+        <mxCell id="tqf3V1w9By7qvggdj3lG-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-114" target="tqf3V1w9By7qvggdj3lG-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-114" value="요청 승인?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1344.02" y="-810" width="80" height="80" as="geometry" />
+          <mxGeometry x="-35.98000000000002" y="-1170" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-117" target="tqf3V1w9By7qvggdj3lG-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-117" value="회수 승인 확인" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1324.02" y="-640" width="120" height="60" as="geometry" />
+          <mxGeometry x="-55.98000000000002" y="-850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-114" target="tqf3V1w9By7qvggdj3lG-113">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1594.0153846153844" y="-800" as="sourcePoint" />
+            <mxPoint x="214.0153846153844" y="-1160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1594" y="-770" />
-              <mxPoint x="1594" y="-910" />
+              <mxPoint x="214" y="-1130" />
+              <mxPoint x="214" y="-1270" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-123" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1428.02" y="-800" width="40" height="30" as="geometry" />
+          <mxGeometry x="48.01999999999998" y="-1160" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-124" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1383.02" y="-730" width="50" height="30" as="geometry" />
+          <mxGeometry x="3.019999999999982" y="-1090" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-125" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;신청 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1225.52" y="-930" width="80" height="30" as="geometry" />
+          <mxGeometry x="-139.48000000000002" y="-1285" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-126" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;거절 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1604.02" y="-850" width="80" height="30" as="geometry" />
+          <mxGeometry x="224.01999999999998" y="-1210" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-127" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;회수 승인 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1210.52" y="-625" width="110" height="30" as="geometry" />
+          <mxGeometry x="-169.48000000000002" y="-835" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tqf3V1w9By7qvggdj3lG-129" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1338.02" y="-140" width="80" height="80" as="geometry" />
+        <mxCell id="tqf3V1w9By7qvggdj3lG-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-130" target="tqf3V1w9By7qvggdj3lG-137">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-130" value="회수 물류 확인" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1324.02" y="-490" width="120" height="60" as="geometry" />
+          <mxGeometry x="-55.98000000000002" y="-700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqf3V1w9By7qvggdj3lG-132" value="&lt;h1&gt;기존 process&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;REQUEST - 신청&lt;br&gt;&lt;/li&gt;&lt;li&gt;APPROVED - 승인&lt;/li&gt;&lt;li&gt;REJECTED - 거부&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="-810" width="190" height="120" as="geometry" />
+          <mxGeometry x="-730" y="-1160" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tqf3V1w9By7qvggdj3lG-133" value="&lt;h1&gt;변경되어야 할 반품 승인 process&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;REQUEST - 신청&lt;br&gt;&lt;/li&gt;&lt;li&gt;RECALL_APPROVED - 회수 승인&lt;/li&gt;&lt;li&gt;CHECKING_PRODUCT - 회수 확인&lt;/li&gt;&lt;li&gt;FINAL_APPROVED - 최종 승인&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;변경되어야 할 교환 승인 process&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;REQUEST - 신청&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;RECALL_APPROVED - 회수 승인&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;CHECKING_PRODUCT - 회수 확인&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;RESEND_PRODUCT - 물류 재발송 확인&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;FINAL_APPROVED - 최종 승인&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="-625" width="360" height="325" as="geometry" />
+        <mxCell id="tqf3V1w9By7qvggdj3lG-133" value="&lt;h1&gt;변경되어야 할 반품 승인 process&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;REQUEST - 신청&lt;br&gt;&lt;/li&gt;&lt;li&gt;RECALL_APPROVED - 회수 승인&lt;/li&gt;&lt;li&gt;CHECKING_PRODUCT - 물품 확인 완료&lt;/li&gt;&lt;li&gt;REFUND_CHECK - 환불 확인&lt;/li&gt;&lt;li&gt;FINAL_APPROVED - 최종 승인&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;변경되어야 할 교환 승인 process&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;REQUEST - 신청&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;RECALL_APPROVED - 회수 승인&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;CHECKING_PRODUCT - 물품 확인 완료&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;RESEND_PRODUCT - 물류 재발송 확인&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;FINAL_APPROVED - 최종 승인&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-730" y="-1000" width="360" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-136" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;물품 확인 완료 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-195.98000000000002" y="-685" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-137" target="tqf3V1w9By7qvggdj3lG-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-137" target="tqf3V1w9By7qvggdj3lG-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-137" value="반품인가 ?&lt;br&gt;교환인가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40.98" y="-540" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-141" target="tqf3V1w9By7qvggdj3lG-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-141" value="환불 처리" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="-525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-143" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;반품&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="74.99999999999999" y="-525" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-145" value="최종 승인" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="-190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-147" target="tqf3V1w9By7qvggdj3lG-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-147" value="물류 재발송 확인" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-55.98" y="-355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-149" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;교환&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="9.999999999999986" y="-420" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-150" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;환불 확인 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="-510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-151" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;최종 승인 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="304.02" y="-175" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-152" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;물류 재발송 확인 상태&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-205.98000000000002" y="-340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-155" target="tqf3V1w9By7qvggdj3lG-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4" y="-610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="141" y="-960" />
+              <mxPoint x="141" y="-610" />
+              <mxPoint x="4" y="-610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-155" value="재판매가 가능한 &lt;br&gt;상품인지 확인" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-45.980000000000004" y="-1010" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-159" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="59.999999999999986" y="-990" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-160" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3.019999999999982" y="-910" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-161" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;회수 거부지만&lt;br&gt;요청은 승인한 상태&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="-835" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-162" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1750" y="2511.6" as="sourcePoint" />
+            <mxPoint x="1750" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-163" target="tqf3V1w9By7qvggdj3lG-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-163" value="교환/반품 관리자 승인 절차 시작" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2760" y="180" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-165" target="tqf3V1w9By7qvggdj3lG-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-165" value="담당자 알림톡 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-167" target="tqf3V1w9By7qvggdj3lG-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-167" value="알림톡 정보&lt;br&gt;주문번호, 문의구분, 문의일 확인 후 해당 문의로 접속&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-169" target="tqf3V1w9By7qvggdj3lG-198">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3020" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-169" target="tqf3V1w9By7qvggdj3lG-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-169" value="첨부사진을 &lt;br&gt;봤을 떄&lt;br&gt;재판매가&lt;br&gt;가능한가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="740" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-177" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2950" y="770" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-180" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2860" y="870" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-181" target="tqf3V1w9By7qvggdj3lG-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-181" target="tqf3V1w9By7qvggdj3lG-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3030" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-181" value="해당 문의&lt;br&gt;검토 했을 때&lt;br&gt;승인할 &lt;br&gt;문의인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="570" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-184" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2869" y="690" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-185" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2940" y="600" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-190" target="tqf3V1w9By7qvggdj3lG-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-190" value="거절 사유 입력" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3040" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-192" value="프로세스 &quot;거절&quot;로&lt;br&gt;문의 종료" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3250" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-194" target="tqf3V1w9By7qvggdj3lG-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-194" value="물류 회수 승인&lt;br&gt;상태로 변경" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="942.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-198" target="tqf3V1w9By7qvggdj3lG-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-198" value="물류 회수 거부" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3020" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-199" target="tqf3V1w9By7qvggdj3lG-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-199" value="물품 회수 받으면&lt;br&gt;확인 후&lt;br&gt;&quot;물품 회수 완료&quot;&lt;br&gt;상태로 변경" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-202" target="tqf3V1w9By7qvggdj3lG-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-202" value="반품 회수 진행&lt;br&gt;여기 자동으로 할 수 있으면 개발 진행 필요" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2805" y="1082.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-207" target="tqf3V1w9By7qvggdj3lG-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-207" target="tqf3V1w9By7qvggdj3lG-221">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2865" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-207" value="반품인가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2825" y="1350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tqf3V1w9By7qvggdj3lG-209" target="tqf3V1w9By7qvggdj3lG-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-209" value="물류 재발송 후&lt;br&gt;확인" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3020" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-211" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2940" y="1360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-215" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;교환&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3020" y="1330" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-216" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;반품&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2750" y="1540" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-217" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2865" y="1430" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-218" value="&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;RESEND_PRODUCT&lt;br&gt;물류 재발송 확인&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3240" y="1347.5" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="tqf3V1w9By7qvggdj3lG-221" value="가상계좌로&lt;br&gt;입금된 주문인가 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2800" y="1490" width="130" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
